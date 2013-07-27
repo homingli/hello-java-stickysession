@@ -3,3 +3,4 @@ applications:
   target:
     name: hello-java
     mem: 256M
+    instances: 2
