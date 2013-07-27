@@ -7,10 +7,9 @@ Sticky Session Mod
 	stackato push -n 
 
 1. Two instances of the app should then be up and running
-2. Append /?name=<yourname> and it should set your name in the session.
-3. Then reload just the root url (remove /?name=<yourname>) and the app should pick up your name from the session.
+2. Append /?name=_yourname_ and it should set your name in the session.
+3. Then reload just the root url (remove /?name=_yourname_) and the app should pick up your name from the session.
 4.  Now no matter how many refreshes the page, you "stick" to the same instance (as shown by the IP address).
-
 
 
 
